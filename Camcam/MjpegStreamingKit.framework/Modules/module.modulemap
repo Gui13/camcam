@@ -1,0 +1,11 @@
+framework module MjpegStreamingKit {
+  umbrella header "MjpegStreamingKit.h"
+
+  export *
+  module * { export * }
+}
+
+module MjpegStreamingKit.Swift {
+    header "MjpegStreamingKit-Swift.h"
+    requires objc
+}
