@@ -12,7 +12,51 @@
 		F0662A07200286A400F3E2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0662A05200286A400F3E2A7 /* Main.storyboard */; };
 		F0662A09200286A400F3E2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0662A08200286A400F3E2A7 /* Assets.xcassets */; };
 		F0662A0C200286A400F3E2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0662A0A200286A400F3E2A7 /* LaunchScreen.storyboard */; };
+		F0662A1520028BE000F3E2A7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0662A1420028BDF00F3E2A7 /* CoreMotion.framework */; };
+		F0662A172002AE1400F3E2A7 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0662A162002AE1400F3E2A7 /* GLKit.framework */; };
+		F0662A342002BA5800F3E2A7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F0662A182002BA5800F3E2A7 /* README.md */; };
+		F0662A562002BC8A00F3E2A7 /* MjpegStreamingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0662A552002BC8000F3E2A7 /* MjpegStreamingKit.framework */; };
+		F0662A592002BD6B00F3E2A7 /* MjpegStreamingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0662A552002BC8000F3E2A7 /* MjpegStreamingKit.framework */; };
+		F0662A5A2002BD6B00F3E2A7 /* MjpegStreamingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0662A552002BC8000F3E2A7 /* MjpegStreamingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0662A542002BC8000F3E2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0662A502002BC8000F3E2A7 /* MjpegStreamingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A2AEA0C1CA9A43A0047FC82;
+			remoteInfo = MjpegStreamingKit;
+		};
+		F0662A572002BC9500F3E2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0662A502002BC8000F3E2A7 /* MjpegStreamingKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2AEA0B1CA9A43A0047FC82;
+			remoteInfo = MjpegStreamingKit;
+		};
+		F0662A5B2002BD6B00F3E2A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0662A502002BC8000F3E2A7 /* MjpegStreamingKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2AEA0B1CA9A43A0047FC82;
+			remoteInfo = MjpegStreamingKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0662A5D2002BD6B00F3E2A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0662A5A2002BD6B00F3E2A7 /* MjpegStreamingKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F06629FE200286A400F3E2A7 /* Camcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +66,10 @@
 		F0662A08200286A400F3E2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0662A0B200286A400F3E2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0662A0D200286A400F3E2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0662A1420028BDF00F3E2A7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F0662A162002AE1400F3E2A7 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F0662A182002BA5800F3E2A7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F0662A502002BC8000F3E2A7 /* MjpegStreamingKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MjpegStreamingKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0662A592002BD6B00F3E2A7 /* MjpegStreamingKit.framework in Frameworks */,
+				F0662A172002AE1400F3E2A7 /* GLKit.framework in Frameworks */,
+				F0662A1520028BE000F3E2A7 /* CoreMotion.framework in Frameworks */,
+				F0662A562002BC8A00F3E2A7 /* MjpegStreamingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +90,10 @@
 		F06629F5200286A400F3E2A7 = {
 			isa = PBXGroup;
 			children = (
+				F0662A502002BC8000F3E2A7 /* MjpegStreamingKit.xcodeproj */,
 				F0662A00200286A400F3E2A7 /* Camcam */,
 				F06629FF200286A400F3E2A7 /* Products */,
+				F0662A1320028BDF00F3E2A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +108,7 @@
 		F0662A00200286A400F3E2A7 /* Camcam */ = {
 			isa = PBXGroup;
 			children = (
+				F0662A182002BA5800F3E2A7 /* README.md */,
 				F0662A01200286A400F3E2A7 /* AppDelegate.swift */,
 				F0662A03200286A400F3E2A7 /* ViewController.swift */,
 				F0662A05200286A400F3E2A7 /* Main.storyboard */,
@@ -62,6 +117,23 @@
 				F0662A0D200286A400F3E2A7 /* Info.plist */,
 			);
 			path = Camcam;
+			sourceTree = "<group>";
+		};
+		F0662A1320028BDF00F3E2A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0662A162002AE1400F3E2A7 /* GLKit.framework */,
+				F0662A1420028BDF00F3E2A7 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0662A512002BC8000F3E2A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0662A552002BC8000F3E2A7 /* MjpegStreamingKit.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +146,13 @@
 				F06629FA200286A400F3E2A7 /* Sources */,
 				F06629FB200286A400F3E2A7 /* Frameworks */,
 				F06629FC200286A400F3E2A7 /* Resources */,
+				F0662A5D2002BD6B00F3E2A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0662A582002BC9500F3E2A7 /* PBXTargetDependency */,
+				F0662A5C2002BD6B00F3E2A7 /* PBXTargetDependency */,
 			);
 			name = Camcam;
 			productName = Camcam;
@@ -111,12 +186,28 @@
 			mainGroup = F06629F5200286A400F3E2A7;
 			productRefGroup = F06629FF200286A400F3E2A7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F0662A512002BC8000F3E2A7 /* Products */;
+					ProjectRef = F0662A502002BC8000F3E2A7 /* MjpegStreamingKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F06629FD200286A400F3E2A7 /* Camcam */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F0662A552002BC8000F3E2A7 /* MjpegStreamingKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MjpegStreamingKit.framework;
+			remoteRef = F0662A542002BC8000F3E2A7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F06629FC200286A400F3E2A7 /* Resources */ = {
@@ -125,6 +216,7 @@
 			files = (
 				F0662A0C200286A400F3E2A7 /* LaunchScreen.storyboard in Resources */,
 				F0662A09200286A400F3E2A7 /* Assets.xcassets in Resources */,
+				F0662A342002BA5800F3E2A7 /* README.md in Resources */,
 				F0662A07200286A400F3E2A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +234,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0662A582002BC9500F3E2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MjpegStreamingKit;
+			targetProxy = F0662A572002BC9500F3E2A7 /* PBXContainerItemProxy */;
+		};
+		F0662A5C2002BD6B00F3E2A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MjpegStreamingKit;
+			targetProxy = F0662A5B2002BD6B00F3E2A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F0662A05200286A400F3E2A7 /* Main.storyboard */ = {
@@ -273,9 +378,14 @@
 		F0662A11200286A400F3E2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2R64CMJ78F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Camcam",
+				);
 				INFOPLIST_FILE = Camcam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.neolyse.Wallabag.Camcam;
@@ -288,9 +398,14 @@
 		F0662A12200286A400F3E2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2R64CMJ78F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Camcam",
+				);
 				INFOPLIST_FILE = Camcam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.neolyse.Wallabag.Camcam;
