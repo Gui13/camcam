@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 	let deviceQueue = OperationQueue()
 	var timer : Timer?
 	let url = "http://192.168.1.24:9595"
-	let mjpgUrl = "http://192.168.1.24/html/cam_pic_new.php"
+	let mjpgUrl = "http://192.168.1.24:9595/livecam"
 
 	@IBOutlet weak var image: UIImageView!
 	override func viewDidLoad() {
