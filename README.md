@@ -8,7 +8,7 @@ This repository contains 2 things:
 
 The iOS project has a hardwired address on which the device will seek the MJPG stream and call APIs to pan and tilt.
 
-[![Video link](https://img.youtube.com/vi/ymav_DVSWNY/0.jpg)](https://www.youtube.com/watch?v=ymav_DVSWNY)
+[![Video link](https://img.youtube.com/vi/vorbunYK5NY/0.jpg)](https://www.youtube.com/watch?v=vorbunYK5NY)
 
 # Installation
 
