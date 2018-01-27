@@ -14,15 +14,18 @@ The iOS project has a hardwired address on which the device will seek the MJPG s
 
 - install the flask and pimoroni packages
 
-    sudo apt-get install pimoroni
-    sudo pip install flask
+```bash
+sudo apt-get install pimoroni
+sudo pip install flask
+```
 
 - transfer the `camcam.py` file to your raspberry
 
 - issue this command in the console:
 
-    python camcam.py
-
+```bash
+python camcam.py
+```
 
 ### On iOS
 
