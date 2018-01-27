@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('gui.html')
+    return 'Nope.'
 
 @app.route('/api/<direction>/<int:angle>')
 def api(direction, angle):

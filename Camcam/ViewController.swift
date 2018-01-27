@@ -17,8 +17,7 @@ class ViewController: UIViewController {
 	let motion = CMMotionManager()
 	let deviceQueue = OperationQueue()
 	var timer : Timer?
-	let url = "http://192.168.1.24:9595"
-	let mjpgUrl = "http://192.168.1.24:9595/livecam"
+	let pi_url = "http://192.168.1.24:9595"
 
 	@IBOutlet weak var image: UIImageView!
 	override func viewDidLoad() {
@@ -28,7 +27,7 @@ class ViewController: UIViewController {
 	
 		let streamingController = MjpegStreamingController(imageView: self.image)
 		// To play url do:
-		let url = URL(string: mjpgUrl)
+		let url = URL(string: "\(pi_url)/livecam")
 		streamingController.play(url: url!)
 		
 	}
@@ -78,7 +77,7 @@ class ViewController: UIViewController {
 		if (deg < 0 || deg > 180){
 			return
 		}
-		let panUrl = URL( string:"\(url)/api/pan/\(deg)")
+		let panUrl = URL( string:"\(pi_url)/api/pan/\(deg)")
 		URLSession.shared.dataTask(with: panUrl!).resume()
 	}
 	
@@ -87,7 +86,7 @@ class ViewController: UIViewController {
 		if (deg < 0 || deg > 180){
 			return
 		}
-		let panUrl = URL( string:"\(url)/api/tilt/\(deg)")
+		let panUrl = URL( string:"\(pi_url)/api/tilt/\(deg)")
 		URLSession.shared.dataTask(with: panUrl!).resume()
 	}
 	
